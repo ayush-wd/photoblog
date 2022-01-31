@@ -1,0 +1,40 @@
+body {
+    background: black;
+}
+nav {
+    height:50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-size: 30px;
+    color:whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+span {
+    width:5px;
+}
+p {
+    border-top: 1px;
+    border-color: white;
+    border-style: solid;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    margin-top: -5px;
+    transform: scaleX(0.8);
+}
+img {
+    width:475px;
+    height:475px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    
+}
+#one #one, #two #one {
+    margin-left: 10px;
+}
+#one #three, #two #three {
+    margin-right: -10px;
+}
+
